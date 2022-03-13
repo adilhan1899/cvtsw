@@ -25,8 +25,8 @@ IEEE 754 standard for the binary floating point types. These are
 roundTiesToEven, roundTowardZero, roundTowardPositive, and roundTowardNegative.
 
 In general, because the floating point value won't be exactly equal to the original
-integer value, the module returns the `inexact' flag to advise the user
-when there has been a loss of precision. Also the module has an `overflow'
+integer value, the module returns the ***inexact*** flag to advise the user
+when there has been a loss of precision. Also the module has an ***overflow***
 flag. While it's not needed for converting 32-bit integers to binary32 values
 there are some combinations of converting integers to floating values (such
 as converting 32-bit integers into binary16 values) for which it will be needed.
